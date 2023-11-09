@@ -16,7 +16,7 @@ REM limitations under the License.
 
 SET PYVER=%1
 IF [%PYVER%] == [] (
-   ECHO Please specify Python version 3.7, 3.8, 3.9 or 3.10.
+   ECHO Please specify Python version 3.8, 3.9 or 3.10.
    EXIT /b 255
 )
 FOR /F "TOKENS=1 DELIMS=." %%A IN ("%PYVER%") DO SET PYVER_MAJOR=%%A
@@ -51,6 +51,7 @@ CALL %VENV%\Scripts\activate.bat
 CALL python -m pip install %PIP_INS_OPTS% --upgrade pip
 
 CALL pip install %PIP_INS_OPTS% ^
+           tensorflow~=2.12.0 ^
            Cython~=0.29 ^
            boto3 ^
            h5py ^

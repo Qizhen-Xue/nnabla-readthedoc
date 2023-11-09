@@ -26,4 +26,3 @@ Solver callback
 .. autofunction:: nnabla.callback.unset_solver_pre_hook
 
 .. autofunction:: nnabla.callback.unset_solver_post_hook
-

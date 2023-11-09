@@ -35,12 +35,12 @@ msgstr "このインストールの手順では、ほとんどの Linux 64-bit �
 
 #: ../../python/install_on_linux.rst:15
 msgid ""
-"The supported Python versions for provided binary packages are 3.7,"
-" 3.8 and 3.9. It is recommended to use `Miniconda "
+"The supported Python versions for provided binary packages are 3.8,"
+" 3.9 and 3.10. It is recommended to use `Miniconda "
 "<https://conda.io/miniconda.html>`_ as a Python distribution. The "
 "following is a simple procedure to install Miniconda Python."
 msgstr ""
-"提供するバイナリパッケージをサポートしている Python のバージョンは 3.7 、3.8、3.9 です。Python "
+"提供するバイナリパッケージをサポートしている Python のバージョンは 3.8、3.9、3.10 です。Python "
 "のディストリビューションとして `Miniconda <https://conda.io/miniconda.html>`_ "
 "を使うことを推奨します。Miniconda の Python をインストールする簡単な手順は、次の通りです。"
 
@@ -56,7 +56,7 @@ msgid ""
 "# Restart your bash or source ~/.bashrc\n"
 "\n"
 "# Switch the default Python version\n"
-"conda install -y python={version number e.g. 3.7}"
+"conda install -y python={version number e.g. 3.8}"
 msgstr ""
 
 #: ../../python/install_on_linux.rst:30
@@ -77,14 +77,14 @@ msgstr "Q. 他の linux ディストリビューションを使いたいので�
 
 #: ../../python/install_on_linux.rst:40
 msgid ""
-"We actually tested other linux distributions and versions; Ubuntu 14.04, "
-"CentOS 6.9, 7.3, Fedora 23, 25, 26, and RHEL 7.3 on various environments;"
-" Baremetal server, AWS instance, and/or Docker machine. Thus, you can "
-"install in almost the same way described here. The details of how-to-"
-"install for each are coming soon."
+"We actually tested other linux distributions and versions; Ubuntu 18.04, "
+"20.04, CentOS 8, Fedora 29, RockyLinux 8 and RHEL 8 on various "
+"environments; Baremetal server, AWS instance, and/or Docker machine. "
+"Thus, you can install in almost the same way described here. The details "
+"of how-to-install for each are coming soon."
 msgstr ""
-"実際に、他の linux ディストリビューションやバージョン ( Ubuntu 14.04 、 CentOS 6.9 、 7.3 、 Fedora"
-" 23 、 25 、 26 、 RHEL 7.3 ) を様々な環境 ( ベアメタルサーバー、AWS インスタンス、Docker コンテナ ) "
+"実際に、他の linux ディストリビューションやバージョン ( Ubuntu 18.04 、20.04 、 CentOS 8 、 Fedora 29"
+" RockyLinux 8 、 RHEL 8 ) を様々な環境 ( ベアメタルサーバー、AWS インスタンス、Docker コンテナ ) "
 "でテスト済みです "
 "。ここで説明した方法と、ほぼ同じ方法でインストールすることができます。それぞれのインストール方法の詳細については近日中に公開する予定です。"
 

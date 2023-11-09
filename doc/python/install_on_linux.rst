@@ -12,7 +12,7 @@ Prerequisites
 This installation instruction describes how to install NNabla using pip
 on almost any Linux 64-bit systems.
 
-The supported Python versions for provided binary packages are 3.7, 3.8, 3.9, 3.10.
+The supported Python versions for provided binary packages are 3.8, 3.9, 3.10.
 
 Python are installed by:
 
@@ -34,4 +34,8 @@ FAQ
 Q. I want to use another linux distribution.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-We actually tested other linux distributions and versions; Ubuntu 20.04, CentOS 7, 8 on various environments; Baremetal server, AWS instance, and/or Docker machine. Thus, you can install in almost the same way described here. The details of how-to-install for each are coming soon.
+We actually tested other linux distributions and versions; Ubuntu 18.04,
+20.04, CentOS 8, RockyLinux 8, Fedora 29 and RHEL 8 on various
+environments; Baremetal server, AWS instance, and/or Docker machine.
+Thus, you can install in almost the same way described here. The details
+of how-to-install for each are coming soon.
